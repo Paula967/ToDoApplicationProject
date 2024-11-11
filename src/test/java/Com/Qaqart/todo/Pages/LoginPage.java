@@ -1,13 +1,10 @@
 package Com.Qaqart.todo.Pages;
 import Com.Qaqart.todo.Base.BasePage;
 import Com.Qaqart.todo.Utils.ConfigUtils;
-import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-
 import java.io.IOException;
-import java.time.Duration;
 
 public class LoginPage extends BasePage {
 

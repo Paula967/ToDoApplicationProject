@@ -4,11 +4,7 @@ import Com.Qaqart.todo.Utils.CookiesUtils;
 import io.restassured.http.Cookie;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeTest;
-
-
 import java.io.IOException;
 import java.util.List;
 

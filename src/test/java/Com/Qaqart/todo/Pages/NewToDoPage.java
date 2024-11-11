@@ -1,16 +1,13 @@
 package Com.Qaqart.todo.Pages;
 import Com.Qaqart.todo.Base.BasePage;
 import Com.Qaqart.todo.Utils.ConfigUtils;
-import Com.Qaqart.todo.Utils.CookiesUtils;
 import Com.Qaqart.todo.config.EndPoints;
 import io.qameta.allure.Step;
-import io.restassured.http.Cookie;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-
 import java.io.IOException;
-import java.util.List;
+
 
 public class NewToDoPage extends BasePage {
 
@@ -35,7 +32,4 @@ public class NewToDoPage extends BasePage {
         driver.get(new ConfigUtils().getBaseUrl()+ EndPoints.NEW_TODO_PAGE_ENDPOINT);
         return this;
     }
-
-
-
 }
