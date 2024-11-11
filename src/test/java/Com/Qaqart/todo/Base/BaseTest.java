@@ -29,9 +29,7 @@ public class BaseTest {
         if (getDriver() != null) {
            getDriver().quit();
         }
-
     }
-
     public void InjectCookiesToBrowser(List<Cookie> RestAssuredCookie){
         List< org.openqa.selenium.Cookie>SeleniumCookies =
                 CookiesUtils.
