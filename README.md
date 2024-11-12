@@ -62,6 +62,6 @@ Test results are generated with Allure Report. To view them, run mvn allure:serv
 Feedback and contributions are welcome! If you have any ideas for improvement or run into issues, feel free to create an issue or pull request.
 
 📞 Contact
-If you have any questions, please reach out via LinkedIn or email me at your.paula.farid9@gmail.com
+If you have any questions, please reach out via LinkedIn or email me at paula.farid9@gmail.com
 
 Thank you for exploring my first Test Automation project!
